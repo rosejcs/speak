@@ -1,0 +1,60 @@
+ul,ol {
+  list-style: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrap {
+  width: 768px;
+  margin: 0 auto;
+  background: #eee;
+}
+/*选项卡标签区*/
+.list-tab {
+  background: pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+.tab-item {
+  width: 33%;
+  text-align: center;
+  background: deepskyblue;
+}
+
+/*选项卡内容区*/
+.list-content {
+  background: gold;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.content-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.content-item:nth-child(1) {
+  background: lightgreen;
+}
+.content-item:nth-child(2) {
+  background: lightpink;
+}
+
+
+
+
+.active {
+  background: green;
+}
+.show {
+  display: block;
+}
+
+
+
