@@ -46,11 +46,8 @@ ul,ol {
   background: lightpink;
 }
 
-
-
-
 .active {
-  background: green;
+  background: lightskyblue;
 }
 .show {
   display: block;
