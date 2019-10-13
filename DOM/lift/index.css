@@ -1,0 +1,66 @@
+body,html {
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  background: #ececec
+}
+
+.pages {
+  width: 100%;
+  height: 100%;
+}
+
+.pages li {
+  width: 100%;
+  height: 100%;
+  float:left;
+  text-align: center;
+  color: #fff;
+  font-size: 42px;
+  line-height: 4;
+}
+
+
+.btns {
+  position: fixed;
+  right: 6%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 160px;
+  background: pink;
+}
+
+.btns li {
+  width: 100%;
+  height: 25%;
+  float:left;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  line-height:40px;
+  cursor: pointer;
+}
+
+.btnActive {
+  box-shadow: 0px 0px 6px 2px black inset;
+  color: #ccc;
+}
+
+.pageActive {
+  box-shadow: 0px 0px 20px 4px darkgoldenrod inset;
+}
