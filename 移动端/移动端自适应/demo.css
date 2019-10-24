@@ -1,0 +1,23 @@
+html {
+}
+
+.container {
+  width: 100%;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.wrap {
+  width: 100rem;
+  width: 80%;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+
+.wrap img {
+  width: 100%;
+  object-fit: cover;
+}
